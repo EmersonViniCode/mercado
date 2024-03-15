@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor-fundo--topbot: #9E0404;
+    --cor-titulo: #FFF500;
+    --cor-produtos: #636363;
+    --mont: "Montserrat", sans-serif;
+    --super: "Lilita One", sans-serif;
+    --great: "Great Vibes", cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #F7F7F7;
+}
+.cabecalho {
+    padding: 1% 0% 0% 0%;
+    background-color: var(--cor-fundo--topbot);
+}
+
+.logo {
+    display: flex;
+    width: 780px;
+    height: 178px;
+    padding: 0% 0% 0% 20%;
+
+}
+
+.cabecalho__menu__link {
+    display: flex;
+    width: 27%;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-family: var(--mont)
+}
+
+.cabecalho__titulo {
+    display: flex;
+    justify-content: center;
+    font-family: var(--super);
+    font-size: 60px;
+    color: var(--cor-titulo);
+
+}
+
+.cabecalho__titulo__dupretti {
+    display: flex;
+    justify-content: center;
+    font-family: var(--great);
+    font-size: 60px;
+    padding: 0% 0% 0% 20%;
+    color: var(--cor-titulo);
+}
+
+.imagem__zap {
+        width: 5%;
+        max-width: 100%;
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+}
+
+.produtos {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 5% 2%;
+    
+}
+
+.produtos__oferta {
+    display: flex;
+    justify-content: center;
+    font-family: var(--mont);
+    padding: 1%;
+    color: var(--cor-produtos);
+    font-size: 55px;
+}
+
+.coluna1 {
+    display: flex;
+    text-align: center;
+    gap: 60px;
+    font-family: var(--mont);
+    color: var(--cor-produtos);
+}
+
+.coluna2 {
+    display: flex;
+    text-align: center;
+    gap: 60px;
+    font-family: var(--mont);
+    color: var(--cor-produtos);
+}
+
+.coluna3 {
+    display: flex;
+    text-align: center;
+    gap: 60px;
+    font-family: var(--mont);
+    color: var(--cor-produtos);
+}
+
+.coluna4 {
+    display: flex;
+    text-align: center;
+    gap: 60px;
+    font-family: var(--mont);
+    color: var(--cor-produtos);
+}
+
+.coluna5 {
+    display: flex;
+    text-align: center;
+    gap: 60px;
+    font-family: var(--mont);
+    color: var(--cor-produtos);
+}
+
+.preco {
+    font-weight: bold;
+}
+
+.rodape {
+    background-color: var(--cor-fundo--topbot);
+    color: white;
+    padding: 1% 0% 2% 1%;
+    font-family: var(--mont);
+    font-size: 15px;
+}
